@@ -47,7 +47,7 @@ public class PostRepository {
     ));
 
     public List<Post> getAllPosts() {
-        return ALL_POST;
+        return ALL_POSTS;
     }
 
     public Post findById(Long id) {
